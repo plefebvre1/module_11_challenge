@@ -1,0 +1,117 @@
+(base)
+peter@PLXPS13 MINGW64 ~
+$ conda activate dev
+(dev)
+peter@PLXPS13 MINGW64 ~
+$ cd FinTech_Workspace/
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace
+$ git clone https://github.com/plefebvre1/module_11_challenge.git
+Cloning into 'module_11_challenge'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (5/5), done.
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace
+$ cd module_11_challenge/
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Resources/
+        forecasting_net_prophet.ipynb
+
+nothing added to commit but untracked files present (use "git add" to track)
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$ git add Resources/
+warning: CRLF will be replaced by LF in Resources/google_hourly_search_trends.csv.
+The file will have its original line endings in your working directory
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$ git add forecasting_net_prophet.ipynb
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$ git commit -m 'Initial starter code'
+[main c6327a0] Initial starter code
+ 4 files changed, 87572 insertions(+)
+ create mode 100644 Resources/google_hourly_search_trends.csv
+ create mode 100644 Resources/mercado_daily_revenue.csv
+ create mode 100644 Resources/mercado_stock_price.csv
+ create mode 100644 forecasting_net_prophet.ipynb
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 298.62 KiB | 2.64 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/plefebvre1/module_11_challenge.git
+   840f78a..c6327a0  main -> main
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   forecasting_net_prophet.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$ git add forecasting_net_prophet.ipynb
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$ git commit -m 'Prophet forecast applied to find patterns and seasonality in stock price and search trends to then create a prophet model.'
+[main 2fa13cd] Prophet forecast applied to find patterns and seasonality in stock price and search trends to then create a prophet model.
+ 1 file changed, 21921 insertions(+), 1065 deletions(-)
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 10.47 MiB | 3.97 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/plefebvre1/module_11_challenge.git
+   c6327a0..2fa13cd  main -> main
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$ touch terminal_history.txt
+(dev)
+peter@PLXPS13 MINGW64 ~/FinTech_Workspace/module_11_challenge (main)
+$
